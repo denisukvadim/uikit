@@ -1,5 +1,5 @@
 {
-    "name": "uikit",
+    "name": "uikit-alternative",
     "title": "UIkit",
     "description": "UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.",
     "version": "3.16.22",
@@ -26,11 +26,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/uikit/uikit.git"
+        "url": "git+https://github.com/denisukvadim/uikit"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/uikit/uikit/issues"
+        "url": "https://github.com/denisukvadim/uikit/issues"
     },
     "homepage": "https://getuikit.com",
     "packageManager": "pnpm@8.6.3",

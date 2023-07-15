@@ -374,8 +374,16 @@ export default {
         },
 
         hide() {
-            const { offset, sticky } = this._data;
             this.setActive(false);
+            let offset, sticky
+            if (this._data) {
+              offset = this._data.offset;
+              sticky = this._data.sticky;
+            } else {
+              offset = 0;
+              sticky = false;
+            }
+            // const { offset, sticky } = this._data;
             removeClass(this.$el, this.clsFixed, this.clsBelow);
             if (sticky) {
                 css(this.$el, 'top', offset);
